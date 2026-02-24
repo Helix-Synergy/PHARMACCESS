@@ -25,29 +25,29 @@ const data = {
     organizer: "Helix Conferences",
     description: [
       <>
-  
-The <Link to=  "/pharmaccess-orators"  className="
+
+        The <Link to="/pharmaccess-orators" className="
              hover:text-accent hover:decoration-accent
              transition-colors duration-300">
-World Real-World Evidence & Pharma Access Forum, </Link> organized by<Link to=  "/pharmaccess-orators"  className="
+          World Real-World Evidence & Pharma Access Forum, </Link> organized by<Link to="/pharmaccess-orators" className="
              hover:text-accent hover:decoration-accent
              transition-colors duration-300">
- Helix Conferences, </Link>  is a distinguished international forum dedicated to advancing data-driven strategies that support regulatory confidence, payer decision-making, and sustainable patient access to innovative therapies.
-The conference is designed to facilitate high-level knowledge exchange, cross-sector collaboration, and evidence-based dialogue that accelerates the integration of real-world evidence into clinical development, regulatory submissions, health technology assessments, and market access strategies. Key focus areas include RWE generation, HEOR, value-based pricing, reimbursement pathways, patient-reported outcomes, and data governance.
-Through keynote addresses, plenary sessions, expert-led panels, technical workshops, and real-world case studies, participants gain strategic insights into evolving regulations, payer expectations, digital health data, and scalable access models.
+          Helix Conferences, </Link>  is a distinguished international forum dedicated to advancing data-driven strategies that support regulatory confidence, payer decision-making, and sustainable patient access to innovative therapies.
+        The conference is designed to facilitate high-level knowledge exchange, cross-sector collaboration, and evidence-based dialogue that accelerates the integration of real-world evidence into clinical development, regulatory submissions, health technology assessments, and market access strategies. Key focus areas include RWE generation, HEOR, value-based pricing, reimbursement pathways, patient-reported outcomes, and data governance.
+        Through keynote addresses, plenary sessions, expert-led panels, technical workshops, and real-world case studies, participants gain strategic insights into evolving regulations, payer expectations, digital health data, and scalable access models.
 
 
-<Link to= "/about-pharmaccess" className="
+        <Link to="/about-pharmaccess" className="
              hover:text-accent hover:decoration-accent
              transition-colors duration-300">
- </Link>
- 
-      
+        </Link>
+
+
       </>,
       <>
         {/* From cutting-edge AI to advanced robotics, from cybersecurity trends to sustainable engineering—we curate thought-provoking content and create immersive spaces where innovation thrives. Explore our sessions to engage with the future of technology, exchange ideas with global experts, and drive impactful solutions across industries.{" "} */}
         <Link
-          to="/pharmaccess-conference-tracks/"  
+          to="/pharmaccess-conference-tracks/"
           target="blank"
           rel="noopener noreferrer"
           className="text-accent font-bold"
@@ -62,53 +62,53 @@ Through keynote addresses, plenary sessions, expert-led panels, technical worksh
       // linkText: "Microbiome Science",
       // link: "/",
       suffix:
-       "Join global leaders, innovators, and policymakers in shaping a value-driven, evidence-led, and patient-centric healthcare ecosystem.",
+        "Join global leaders, innovators, and policymakers in shaping a value-driven, evidence-led, and patient-centric healthcare ecosystem.",
     },
   ],
-highlights: [
-  {
-    title: "Distinguished Keynote Speakers",
-    description:
-      "Engage with internationally recognized leaders driving innovation in real-world evidence, market access, and healthcare value assessment.",
-  },
-  {
-    title: "Technical Workshops & Expert Sessions",
-    description:
-      "Participate in in-depth sessions covering RWE study design, HEOR methodologies, payer evidence requirements, and access optimization strategies.",
-  },
-  {
-    title: "Innovation & Technology Exhibition",
-    description:
-      "Explore advanced real-world evidence platforms, data analytics tools, digital health solutions, and integrated real-world data ecosystems.",
-  },
-  {
-    title: "Strategic Networking Opportunities",
-    description:
-      "Connect with global stakeholders across pharmaceutical companies, payers, regulators, academia, and healthcare technology providers.",
-  },
-  {
-    title: "Market Access & Policy Focus",
-    description:
-      "Gain insights into global reimbursement frameworks, value-based healthcare models, and evolving regulatory and policy expectations.",
-  },
-  {
-    title: "Scientific & Commercial Intelligence",
-    description:
-      "Discover the latest trends in evidence generation, pricing and reimbursement strategy, patient outcomes, and access sustainability.",
-    linkText: "View event schedule",
-    link: "/pharmaccess-event-schedule",
-  },
-  {
-    title: "Collaboration & Partnership Platforms",
-    description:
-      "Build cross-sector partnerships to strengthen evidence strategies, accelerate market access, and improve patient outcomes.",
-  },
-  {
-    title: "Professional Development & Accreditation",
-    description:
-      "Earn professional development recognition through certified learning programs and advanced expert-led workshops.",
-  },
-],
+  highlights: [
+    {
+      title: "Distinguished Keynote Speakers",
+      description:
+        "Engage with internationally recognized leaders driving innovation in real-world evidence, market access, and healthcare value assessment.",
+    },
+    {
+      title: "Technical Workshops & Expert Sessions",
+      description:
+        "Participate in in-depth sessions covering RWE study design, HEOR methodologies, payer evidence requirements, and access optimization strategies.",
+    },
+    {
+      title: "Innovation & Technology Exhibition",
+      description:
+        "Explore advanced real-world evidence platforms, data analytics tools, digital health solutions, and integrated real-world data ecosystems.",
+    },
+    {
+      title: "Strategic Networking Opportunities",
+      description:
+        "Connect with global stakeholders across pharmaceutical companies, payers, regulators, academia, and healthcare technology providers.",
+    },
+    {
+      title: "Market Access & Policy Focus",
+      description:
+        "Gain insights into global reimbursement frameworks, value-based healthcare models, and evolving regulatory and policy expectations.",
+    },
+    {
+      title: "Scientific & Commercial Intelligence",
+      description:
+        "Discover the latest trends in evidence generation, pricing and reimbursement strategy, patient outcomes, and access sustainability.",
+      linkText: "View event schedule",
+      link: "/pharmaccess-event-schedule",
+    },
+    {
+      title: "Collaboration & Partnership Platforms",
+      description:
+        "Build cross-sector partnerships to strengthen evidence strategies, accelerate market access, and improve patient outcomes.",
+    },
+    {
+      title: "Professional Development & Accreditation",
+      description:
+        "Earn professional development recognition through certified learning programs and advanced expert-led workshops.",
+    },
+  ],
 
 
 
@@ -142,7 +142,7 @@ const AboutPublicHealth = () => {
       </div>
 
       <h1 className="text-4xl mt-2 font-bold text-one">
-Fostering Evidence Expanding Patient Access
+        Fostering Evidence Expanding Patient Access
       </h1>
       <p className="text-center text-gray-600 text-3xl mb-6">
         <strong>
@@ -153,7 +153,7 @@ Fostering Evidence Expanding Patient Access
       {data.event.description.map((desc, idx) => (
         <p
           key={idx}
-          className="mb-6 text-lg leading-relaxed text-center w-full min-w-5xl px:2 md:px-12 lg:px-24"
+          className="mb-6 text-lg leading-relaxed text-justify w-full min-w-5xl px:2 md:px-12 lg:px-24"
         >
           {desc}
         </p>
@@ -167,7 +167,7 @@ Fostering Evidence Expanding Patient Access
         {data.join.map((para, idx) => (
           <p
             key={idx}
-            className="mb-6 text-lg leading-relaxed text-center w-full min-w-5xl px:2 md:px-12 lg:px-24"
+            className="mb-6 text-lg leading-relaxed text-justify w-full min-w-5xl px:2 md:px-12 lg:px-24"
           >
             {para.text} <Link to={para.link}>{para.linkText}</Link>
             {para.suffix}
@@ -182,25 +182,25 @@ Fostering Evidence Expanding Patient Access
           <div className="bg-white rounded-xl shadow px-4 py-6 flex flex-col items-center hover:shadow-lg transition">
             <User className="h-10 w-10 text-one mb-3" />
             <h3 className="text-lg font-semibold text-gray-800 mb-1">
- Real-World Evidence & HEOR Professionals
+              Real-World Evidence & HEOR Professionals
             </h3>
           </div>
           <div className="bg-white rounded-xl shadow px-4 py-6 flex flex-col items-center hover:shadow-lg transition">
             <BookOpen className="h-10 w-10 text-one mb-3" />
             <h3 className="text-lg font-semibold text-gray-800 mb-1">
-Market Access, Pricing & Reimbursement Leaders
+              Market Access, Pricing & Reimbursement Leaders
             </h3>
           </div>
           <div className="bg-white rounded-xl shadow px-4 py-6 flex flex-col items-center hover:shadow-lg transition">
             <Rocket className="h-10 w-10 text-one mb-3" />
             <h3 className="text-lg font-semibold text-gray-800 mb-1">
- Pharmaceutical & Biopharma Strategy Teams
+              Pharmaceutical & Biopharma Strategy Teams
             </h3>
           </div>
           <div className="bg-white rounded-xl shadow px-4 py-6 flex flex-col items-center hover:shadow-lg transition">
             <PackageSearch className="h-10 w-10 text-one mb-3" />
             <h3 className="text-lg font-semibold text-gray-800 mb-1">
-Regulators, Payers & Health Policy Experts
+              Regulators, Payers & Health Policy Experts
             </h3>
           </div>
         </div>
@@ -220,7 +220,7 @@ Regulators, Payers & Health Policy Experts
                 <h3 className="font-semibold whitespace-nowrap mr-1">
                   {highlight.title} –
                 </h3>
-                <p className="text-md text-gray-600 flex-1">
+                <p className="text-md text-gray-600 flex-1 text-justify">
                   {highlight.link ? (
                     <>
                       {highlight.description}{" "}

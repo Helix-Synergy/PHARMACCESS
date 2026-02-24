@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { banner_style } from "../Styles/styles";
+import AbstractTemplate from "../assets/AbstractTemplate.pdf";
 
 const AbstractSubmission = () => {
   const [form, setForm] = useState({
@@ -97,26 +98,26 @@ const AbstractSubmission = () => {
     setLoading(false);
   };
 
-const presentationOptions = [
-  "Public Health",
-  "Health Sciences",
-  "Nano Medicine",
-  "RWE Strategy",
-  "Pharmacology",
-  "Vaccinology",
-  "Biomedical Engineering",
-  "Design & Methodology",
-  "Food Science",
-  "Chronic Disease",
-  "Drug Safety",
-  "Pharmaceutical Analysis",
-  "Pharmacovigilance",
-  "Epidemiology",
-  "Neuroscience",
-  "Cell & Gene Therapies",
-  "Patient Safety",
-  "Mental Health",
-];
+  const presentationOptions = [
+    "Public Health",
+    "Health Sciences",
+    "Nano Medicine",
+    "RWE Strategy",
+    "Pharmacology",
+    "Vaccinology",
+    "Biomedical Engineering",
+    "Design & Methodology",
+    "Food Science",
+    "Chronic Disease",
+    "Drug Safety",
+    "Pharmaceutical Analysis",
+    "Pharmacovigilance",
+    "Epidemiology",
+    "Neuroscience",
+    "Cell & Gene Therapies",
+    "Patient Safety",
+    "Mental Health",
+  ];
 
 
 
@@ -145,9 +146,8 @@ const presentationOptions = [
       <form onSubmit={handleSubmit} className="space-y-4">
         {status.message && (
           <div
-            className={`w-full p-4 rounded-lg text-white text-center ${
-              status.type === "success" ? "bg-green-600" : "bg-red-600"
-            }`}
+            className={`w-full p-4 rounded-lg text-white text-center ${status.type === "success" ? "bg-green-600" : "bg-red-600"
+              }`}
           >
             {status.message}
           </div>
@@ -300,7 +300,7 @@ const presentationOptions = [
         </button>
 
         <button className="bg-one ml-2 px-4 py-2 rounded">
-          <a href="" download className="text-white">
+          <a href={AbstractTemplate} download="Abstract_Template.pdf" className="text-white">
             Download Demo Abstract
           </a>
         </button>
