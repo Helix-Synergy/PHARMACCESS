@@ -10,22 +10,22 @@ const faqLinks = {
 
 export const faqData = [
   {
-    question: "What is ZEROTRUSTAI-2026?",
+    question: "What is PHARMACCESS-2026?",
     answer:
-      "ZEROTRUSTAI-2026, officially titled the “Zero-Trust Security & AI Defense Forum”, is a premier international conference organized by Helix Conferences. The forum brings together cybersecurity leaders, AI researchers, defense experts, enterprises, startups, and policymakers to explore Zero-Trust architectures, AI-driven security, cyber resilience, threat intelligence, and next-generation defense strategies.",
+      "PHARMACCESS-2026, officially titled the “Real-World Evidence & Pharma Access Forum”, is a premier international conference focused on the use of real-world data and evidence to improve market access, reimbursement strategies, health economics, and patient outcomes. The forum brings together pharma leaders, HEOR experts, payers, regulators, clinicians, data scientists, startups, and policymakers.",
   },
   {
-    question: "When and where will ZEROTRUSTAI-2026 take place?",
+    question: "When and where will PHARMACCESS-2026 take place?",
     answer:
-      "ZEROTRUSTAI-2026 will be held on September 24–25, 2026, in Osaka, Japan.",
+      "PHARMACCESS-2026 will be held on October 22–23, 2026, in Singapore.",
   },
   {
-    question: "What are the key highlights of ZEROTRUSTAI-2026?",
+    question: "What are the key highlights of PHARMACCESS-2026?",
     answer:
-      "Keynote addresses by global cybersecurity experts, AI security workshops, real-world Zero-Trust implementations, advanced threat detection sessions, panel discussions, live technology demonstrations, startup showcases, and high-impact networking opportunities.",
+      "Keynote talks by global pharma and market access leaders, real-world evidence case studies, HEOR strategy workshops, payer–industry panel discussions, regulatory insights sessions, technology showcases, and high-impact networking opportunities.",
   },
   {
-    question: "What topics and tracks are covered at ZEROTRUSTAI-2026?",
+    question: "What topics and tracks are covered at PHARMACCESS-2026?",
     answer: (
       <>
         Explore the complete list of conference tracks here:{" "}
@@ -35,7 +35,7 @@ export const faqData = [
           rel="noopener noreferrer"
           className="text-blue-600 underline"
         >
-          ZEROTRUSTAI-2026 Tracks
+          PHARMACCESS-2026 Tracks
         </a>
         .
       </>
@@ -45,7 +45,7 @@ export const faqData = [
     question: "How can I present my research or explore sponsorship opportunities?",
     answer: (
       <>
-        To present your research, demonstrate technology, or discuss sponsorship
+        To present your research, showcase solutions, or discuss sponsorship
         opportunities, please contact us at{" "}
         <a href={faqLinks.email} className="text-blue-600 underline">
           hello@helixconferences.com
@@ -87,14 +87,14 @@ export const faqData = [
       "Standard presentation slots are typically 15–20 minutes, including Q&A. Final guidelines will be shared upon acceptance.",
   },
   {
-    question: "Who should attend ZEROTRUSTAI-2026?",
+    question: "Who should attend PHARMACCESS-2026?",
     answer:
-      "Cybersecurity professionals, CISOs, AI researchers, cloud architects, DevSecOps engineers, government officials, defense professionals, technology providers, startups, and academicians.",
+      "Market access professionals, HEOR experts, real-world evidence scientists, pharma & biotech leaders, pricing and reimbursement specialists, payers, regulators, clinicians, data scientists, health policy professionals, startups, and academicians.",
   },
   {
     question: "How many participants are expected?",
     answer:
-      "ZEROTRUSTAI-2026 is expected to host 150+ international participants, including speakers, delegates, exhibitors, and sponsors.",
+      "PHARMACCESS-2026 is expected to host 150+ international participants, including speakers, delegates, exhibitors, and sponsors.",
   },
   {
     question: "Can I submit multiple abstracts?",
@@ -109,7 +109,7 @@ export const faqData = [
   {
     question: "What is expected from speakers and exhibitors?",
     answer:
-      "Speakers and exhibitors are expected to deliver insightful, industry-relevant, and innovation-driven sessions while actively engaging with attendees.",
+      "Speakers and exhibitors are expected to deliver insightful, evidence-driven, and market-relevant sessions while actively engaging with attendees.",
   },
   {
     question: "Is there a registration fee?",

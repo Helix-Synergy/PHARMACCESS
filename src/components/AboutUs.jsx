@@ -40,7 +40,7 @@ The Real-World Evidence & Pharma Access Forum brings together pioneers in real-w
    <Link
             className="text-accent font-bold"
             target="_blank"
-            to="https://helixconferences.com/blog.php"
+            // to="https://helixconferences.com/blog.php"
           >
   
             
