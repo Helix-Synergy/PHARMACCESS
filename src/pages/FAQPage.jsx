@@ -10,22 +10,22 @@ const faqLinks = {
 
 export const faqData = [
   {
-    question: "What is PHARMACCESS-2026?",
+    question: "What is PHARMACCESS-2027?",
     answer:
-      "PHARMACCESS-2026, officially titled the “Real-World Evidence & Pharma Access Forum”, is a premier international conference focused on the use of real-world data and evidence to improve market access, reimbursement strategies, health economics, and patient outcomes. The forum brings together pharma leaders, HEOR experts, payers, regulators, clinicians, data scientists, startups, and policymakers.",
+      "PHARMACCESS-2027, officially titled the “Real-World Evidence & Pharma Access Forum”, is a premier international conference focused on the use of real-world data and evidence to improve market access, reimbursement strategies, health economics, and patient outcomes. The forum brings together pharma leaders, HEOR experts, payers, regulators, clinicians, data scientists, startups, and policymakers.",
   },
   {
-    question: "When and where will PHARMACCESS-2026 take place?",
+    question: "When and where will PHARMACCESS-2027 take place?",
     answer:
-      "PHARMACCESS-2026 will be held on October 22–23, 2026, in Singapore.",
+      "PHARMACCESS-2027 will be held on Mar 22-23 | 2027, in Singapore.",
   },
   {
-    question: "What are the key highlights of PHARMACCESS-2026?",
+    question: "What are the key highlights of PHARMACCESS-2027?",
     answer:
       "Keynote talks by global pharma and market access leaders, real-world evidence case studies, HEOR strategy workshops, payer–industry panel discussions, regulatory insights sessions, technology showcases, and high-impact networking opportunities.",
   },
   {
-    question: "What topics and tracks are covered at PHARMACCESS-2026?",
+    question: "What topics and tracks are covered at PHARMACCESS-2027?",
     answer: (
       <>
         Explore the complete list of conference tracks here:{" "}
@@ -35,7 +35,7 @@ export const faqData = [
           rel="noopener noreferrer"
           className="text-blue-600 underline"
         >
-          PHARMACCESS-2026 Tracks
+          PHARMACCESS-2027 Tracks
         </a>
         .
       </>
@@ -87,14 +87,14 @@ export const faqData = [
       "Standard presentation slots are typically 15–20 minutes, including Q&A. Final guidelines will be shared upon acceptance.",
   },
   {
-    question: "Who should attend PHARMACCESS-2026?",
+    question: "Who should attend PHARMACCESS-2027?",
     answer:
       "Market access professionals, HEOR experts, real-world evidence scientists, pharma & biotech leaders, pricing and reimbursement specialists, payers, regulators, clinicians, data scientists, health policy professionals, startups, and academicians.",
   },
   {
     question: "How many participants are expected?",
     answer:
-      "PHARMACCESS-2026 is expected to host 150+ international participants, including speakers, delegates, exhibitors, and sponsors.",
+      "PHARMACCESS-2027 is expected to host 150+ international participants, including speakers, delegates, exhibitors, and sponsors.",
   },
   {
     question: "Can I submit multiple abstracts?",

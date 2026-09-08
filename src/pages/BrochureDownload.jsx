@@ -65,8 +65,8 @@ const BrochureDownload = () => {
         setStatus({ type: "success", message: res.data.message || "Form submitted successfully. Brochure will now download." }); // <-- CHANGED: Replaced alert with status
         // Trigger brochure download
         const link = document.createElement("a");
-        link.href = "/PHARMACCESS.pdf"; // Make sure this path is correct
-        link.setAttribute("download", "PHARMACCESS.pdf");
+        link.href = "/PHARMACCESS 2027.pdf"; // Make sure this path is correct
+        link.setAttribute("download", "PHARMACCESS 2027.pdf");
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);

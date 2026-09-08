@@ -27,7 +27,7 @@ const Orators = () => {
           Meet Our Distinguished Orators
         </h2>
         <p className="w-full md:w-2/3 text-sm md:text-base text-slate-600">
-International real-world evidence researchers, pharmaceutical scientists, health economists, and market access leaders advancing next-generation, data-driven healthcare access and evidence-based decision-making at PHARMACCESS-2026.
+International real-world evidence researchers, pharmaceutical scientists, health economists, and market access leaders advancing next-generation, data-driven healthcare access and evidence-based decision-making at PHARMACCESS-2027.
         </p>
       </div>
 

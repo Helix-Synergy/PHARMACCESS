@@ -28,7 +28,7 @@ const Executive_members = () => {
         <h2 className="text-2xl text-one md:text-3xl font-bold mb-2">
           Meet Our Distinguished Panel Members
         </h2>
-Leading global real-world evidence experts, pharmaceutical strategists, health economists, and market access innovators shaping the future of evidence-driven healthcare decision-making at PHARMACCESS-2026.       <p className="w-full md:w-2/3 text-sm md:text-base text-slate-600">
+Leading global real-world evidence experts, pharmaceutical strategists, health economists, and market access innovators shaping the future of evidence-driven healthcare decision-making at PHARMACCESS-2027.       <p className="w-full md:w-2/3 text-sm md:text-base text-slate-600">
 
         </p>
       </div>
